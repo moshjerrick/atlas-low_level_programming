@@ -3,7 +3,7 @@
 /**
  * main-puts
  *
- * Return: Always0(Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
