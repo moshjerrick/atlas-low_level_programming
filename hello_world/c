@@ -747,7 +747,3 @@ int main(void)
 {
     return (0);
 }
-julien@ubuntu:~/c/$ export CFILE=main.c
-julien@ubuntu:~/c/$ ./0-preprocessor
-julien@ubuntu:~/c/$ tail c
-# 942 "/usr/include/stdio.h" 3 4
