@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * Main -  printing different last digits
- * 
+ *
  * Return: always return 0
 */
 int main(void)
