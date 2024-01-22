@@ -16,6 +16,6 @@ putchar(',');
 
  putchar(' ');
 }
-/* putchar('\n'); */ /* maybe we dont need this */
+putchar('\n'); /* maybe we dont need this */
 return (0);
 }
