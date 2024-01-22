@@ -1,17 +1,18 @@
 #include <stdio.h>
 
-int main() {
+int main(void) 
+{
 int start = 'a';
 int end = 'z';
 
 int i;
-for (i = start; i <= end; ++i) {
+for (i = start; i <= end; ++i) 
 putchar(i);
-}
+
 
 
 putchar('\n');
 
-return 0;
+return (0);
 }
 
