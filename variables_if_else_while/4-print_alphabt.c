@@ -13,7 +13,7 @@ int end = 'z';
 int i;
 for (i = start; i <= end; ++i)
 {
-if(i != 'e' && i != 'q')
+if (i != 'e' && i != 'q')
 putchar(i);
 }
 
