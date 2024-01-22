@@ -16,7 +16,7 @@ putchar(i);
 
 start = 'A';
 end = 'Z';
-for (i = start; i <= end: ++i)
+for (i = start; i <= end; ++i)
 putchar(i);
 
 
