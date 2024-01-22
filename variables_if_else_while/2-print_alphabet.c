@@ -4,8 +4,8 @@ int main() {
 int start = 'a';
 int end = 'z';
 
-
-for (int i = start; i <= end; ++i) {
+int i;
+for (i = start; i <= end; ++i) {
 putchar(i);
 }
 
