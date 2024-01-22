@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - printing alphabet
+ *
+ * return: always zer
+ */
+
 int main(void)
 {
 int start = 'a';
