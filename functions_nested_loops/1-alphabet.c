@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+void print_alpha();
+void _putchar(char);
+
 /** print_alpha - prints alphabet
 * Return: null
 */
