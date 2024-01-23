@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-void print_alpha();
-void _putchar(char);
+#include "printalpha.h"
 
 /** print_alpha - prints alphabet
 * Return: null
@@ -10,17 +9,17 @@ void print_alpha()
 {
 int i;
 for(i = 97; i < 122; i++)
-putchar(i);
+_putchar(i);
 
-/*putchar('\n'); */ /* uncomment to get newline */
-/* NOTE: no return needed for void functions! */
+_putchar('\n'); 
 }
 
-/** main - runs program with function
-* Return: always zero
+/**
+* main - program
+* Return: nothing
 */
 int main(void)
 {
 print_alpha();
-return(0);
+return (0);
 }
