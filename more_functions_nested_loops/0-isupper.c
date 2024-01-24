@@ -14,10 +14,10 @@ int main(void)
 
     if (isupper(myChar))
     {
-        return 1; // c is upper
+        return 1;
     }
     else
     {
-        return 0; // c is lower
+        return 0;
     }
 }
