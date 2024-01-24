@@ -1,6 +1,6 @@
 #include "main.h"
  /**
-  * main - using mul to multiply intergers
+  * mul - using mul to multiply intergers
   *
   * Return:
   */
