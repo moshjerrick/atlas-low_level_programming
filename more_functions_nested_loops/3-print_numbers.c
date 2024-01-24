@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - numbers 0 - 9
  *
- * Return: 
+ * Return: alwasy (0)
  */
 void print_numbers(void)
 {
