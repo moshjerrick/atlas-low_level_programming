@@ -12,6 +12,6 @@ if (i !=50 && i != 52)
 {
 	putchar(i);
 }
-putchar('\n')
+putchar('\n');
 }
 
