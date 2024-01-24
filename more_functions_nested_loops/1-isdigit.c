@@ -4,7 +4,7 @@
 /**
  * main - check the code
  *
- * Return - always 0
+ * Return -
  */
 int _isdigit(int c)
 {
