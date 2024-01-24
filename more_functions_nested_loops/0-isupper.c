@@ -2,16 +2,16 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int _isupper(int c);
 
 /**
  * main - Entry point of the program.
  *
  * Return: Always 0 (success).
  */
-int main(void)
-{ 
-    char myChar = 'C'; 
+
+int _isupper(int c);
+{
+char myChar = 'C'; 
     int result;
 
     if (isupper(myChar))
