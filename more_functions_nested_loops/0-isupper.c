@@ -1,28 +1,24 @@
-#include "main.h"
 #include <stdio.h>
 #include <ctype.h>
 
+int _isupper(int c);
 
 /**
  * main - Entry point of the program.
  *
  * Return: Always 0 (success).
  */
-
-int _isupper(int c);
-{
-char myChar = 'C'; 
-    int result;
+int main(void)
+{ // No error on this line now
+    char myChar = 'C';
 
     if (isupper(myChar))
     {
-        result = 1; 
+        return 1; // c is upper
     }
     else
     {
-        result = 0; 
+        return 0; // c is lower
     }
-
-    return result;
 }
 
