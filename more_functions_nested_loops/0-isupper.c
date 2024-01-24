@@ -10,17 +10,17 @@ int _isupper(int c);
  * Return: Always 0 (success).
  */
 int main(void)
-{ // line 12 <- current line in the debugger
-    char myChar = 'C'; // Replace 'C' with your desired character
+{ 
+    char myChar = 'C'; 
     int result;
 
     if (isupper(myChar))
     {
-        result = 1; // myChar is upper
+        result = 1; 
     }
     else
     {
-        result = 0; // myChar is lower
+        result = 0; 
     }
 
     return result;
