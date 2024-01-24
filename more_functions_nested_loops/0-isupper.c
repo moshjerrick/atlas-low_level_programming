@@ -9,7 +9,7 @@ int _isupper(int c);
  * Return: Always 0 (success).
  */
 int main(void)
-{ // No error on this line now
+{
     char myChar = 'C';
 
     if (isupper(myChar))
