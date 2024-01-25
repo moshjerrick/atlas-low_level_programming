@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *
- * main - 
+ * main - making 10 lines of 0-14
  *
  * Return:
  */
