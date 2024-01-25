@@ -16,7 +16,7 @@ for (i = 1; i <= 10; i++)
 {
 	for (j = 0; j <= 14; j++)
 {	
-	putchar ("%d", ji);
+	putchar ("%d", j);
 	putchar ('\n');
 }
 }
