@@ -10,9 +10,13 @@ void print_alpha();
 {
 	void print_alphabet(void)
 int i;
-for(i = 97; i <= 122; i++)
+char c;
+for (i = 97; i <= 122; i++)
+{
+for (c = a; c <= z; c++)
 {
 	putchar(i);
 }
 putchar('\n'); 
+}
 }
