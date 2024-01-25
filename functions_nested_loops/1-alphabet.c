@@ -7,6 +7,7 @@ void print_alpha();
 * main - program
 * Return: nothing
 */
+
 {
 	void print_alphabet(void)
 int i;
