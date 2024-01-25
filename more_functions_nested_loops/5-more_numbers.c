@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  *
  * main - 
@@ -16,4 +15,11 @@ for (int i = 0; i < 10; i++)
 }
 }
 putchar('\n');
+}
+
+int main () 
+{
+	more_numbers();
+
+	return (0)
 }
