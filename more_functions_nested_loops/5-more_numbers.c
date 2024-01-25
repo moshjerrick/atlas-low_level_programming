@@ -15,9 +15,13 @@ for (i = 1; i <= 10; i++)
 {
 	for (j = 0; j <= 14; j++)
 {	
-_putchar("%d", j);
-
+if (j >= 0)
+{
+	_putchar ((j / '0');
+			}
+			_putchar ((j % 10) + '0')
 }
-_putchar('\n')
+_putchar('\n');
+
 }
 }
