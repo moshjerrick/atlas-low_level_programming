@@ -1,18 +1,21 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *
  * main - 
  *
  * Return:
  */
-void more_numbers(void);
+void more_numbers(void)
 
 {
 int i,j;
 
 for (int i = 0; i < 10; i++)
-{for (int j = 0; j <= 14; j++)
-{	putchar ('0' + j);
+{
+	for (int j = 0; j <= 14; j++)
+{	
+	putchar ('0' + j);
 
 }
 }
