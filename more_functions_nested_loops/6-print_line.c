@@ -1,7 +1,7 @@
 #include "main.h"
 
 /* Placeholder for _putchar */
-void print_line(int n) {
+void print_line(int n)
 {
 int i;	     
 	if (n <= 0) 
