@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _isdigit - check the code
+ * _isdigit - description
  *
  * @c: character
- * Return -
+ * Return - return (0)
  */
 int _isdigit(int c)
 {
