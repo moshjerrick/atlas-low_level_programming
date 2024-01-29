@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _puts - 
+ * _puts - prints string then a line
  *
- * @str
+ * @str: strint
  *
  * Return:
  */
