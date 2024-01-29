@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * puts - printing every other number
+ * puts2 - printing every other number
  *
- *
+ *@str: string
  * Return: (0)
  */
 void puts2(char *str)
