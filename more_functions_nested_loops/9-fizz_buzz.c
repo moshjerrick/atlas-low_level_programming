@@ -27,6 +27,5 @@ printf("%d ", i);
 }
 }
 puts("Buzz");
-printf("\n");
 return (0);
 }
