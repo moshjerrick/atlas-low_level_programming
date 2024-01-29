@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * puts - 
+ * puts - printing every other number
  *
  * 
- * Return:
+ * Return: (0)
  */
 void puts2(char *str)
 {
