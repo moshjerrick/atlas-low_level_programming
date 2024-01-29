@@ -2,6 +2,7 @@
 /**
  * main -
  *
+ * @n: diagonal
  * Return:
  */
 void print_diagonal(int n)
