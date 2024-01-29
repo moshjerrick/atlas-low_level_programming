@@ -3,7 +3,7 @@
 /**
  * puts - printing every other number
  *
- * 
+ *
  * Return: (0)
  */
 void puts2(char *str)
