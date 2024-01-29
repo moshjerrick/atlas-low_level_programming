@@ -1,4 +1,5 @@
-int mul(int a, int b); int _isdigit(int c);
+int mul(int a, int b); 
+int _isdigit(int c);
 int _isupper(int c);
 void print_square(int size);
 void print_diagonal(int n);
