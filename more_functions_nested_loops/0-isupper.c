@@ -2,6 +2,7 @@
 /**
  * main - Entry point of the program.
  *
+ * @c: is upper case
  * Return: Always 0 (success).
  */
 int _isupper(int c)
