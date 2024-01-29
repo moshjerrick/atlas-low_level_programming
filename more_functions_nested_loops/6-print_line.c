@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main -
+ * print_line - Printing a line in terminal
  *
- * Return:
+ * Return: always (0)
  */
 void print_line(int n)
 {
