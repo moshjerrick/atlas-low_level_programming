@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * puts_half - 
+ * puts_half - prints second half of line
  *
- * @str:
+ * @str: pointer 
  *
  */
 void puts_half(char *str)
