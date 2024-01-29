@@ -2,7 +2,7 @@
 /**
  * main - void
  *
- * @n: diagonal
+ * @print_diagonal: diagonal
  * Return: alwasy 0
  */
 void print_diagonal(int n)
