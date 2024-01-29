@@ -24,7 +24,8 @@ int main(void)
 				}
 			else
 			{
-				printf(%d, i);
-				return (0);
-		}
+				printf("%d", i);
+			}
+			return (0);
+		
 }
