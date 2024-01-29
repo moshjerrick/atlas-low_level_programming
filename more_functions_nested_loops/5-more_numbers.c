@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  *
- * main - making 10 lines of 0-14
+ * more_numbers - making 10 lines of 0-14
  *
- * Return:
+ * Return: always (0)
  */
 void more_numbers(void)
 
