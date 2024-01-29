@@ -3,7 +3,7 @@
  * _isdigit - description
  *
  * @c: character
- * Return - return (0)
+ * Return: return (0)
  */
 int _isdigit(int c)
 {
