@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main -
+ * main - void
  *
  * @n: diagonal
- * Return:
+ * Return: alwasy 0
  */
 void print_diagonal(int n)
 {
