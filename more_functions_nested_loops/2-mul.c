@@ -2,7 +2,8 @@
  /**
   * mul - using mul to multiply intergers
   *
-  * Return:
+  *
+  * Return: always (0)
   */
 int mul(int a, int b)
 {
