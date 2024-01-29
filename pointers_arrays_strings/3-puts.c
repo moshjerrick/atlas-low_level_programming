@@ -10,5 +10,6 @@
 void _puts(char *str)
 {
 puts(str);
+puts(long_str);
 printf("\n");
 }
