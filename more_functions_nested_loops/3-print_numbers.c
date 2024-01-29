@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - numbers 0 - 9
+ * print_numbers- numbers 0 - 9
  *
  * Return: alwasy (0)
  */
