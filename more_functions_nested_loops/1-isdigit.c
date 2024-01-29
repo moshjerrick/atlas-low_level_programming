@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * main - check the code
+ * _isdigit - check the code
  *
+ * @c: character
  * Return -
  */
 int _isdigit(int c)
