@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - void
+ * print_diagonal - void
  *
- * @print_diagonal: diagonal
+ * @n: diagonal
  * Return: alwasy 0
  */
 void print_diagonal(int n)
