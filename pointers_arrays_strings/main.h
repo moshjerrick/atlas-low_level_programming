@@ -1,4 +1,4 @@
-void print _array(int *a, int n);
+void print_array(int *a, int n);
 void rev_string(char *s);
 void puts_half(char *str);
 void puts2(char *str);
