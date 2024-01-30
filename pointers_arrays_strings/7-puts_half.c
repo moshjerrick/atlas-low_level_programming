@@ -1,20 +1,33 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
 /**
- * puts_half - prints second half of line
+ * puts_char - printing half strings
  *
  * @str: pointer
- *
- */
+ * Return: zero
+ */ 
+int main(void)
+{
+    char *str = "abcdefgh";
+    puts_half(str);
+}
+
 void puts_half(char *str)
 {
-int i;
-int length = strlen(str);
-int start_index = length / 2;
-for (i = start_index; str[i] != '\0'; i++)
-{
-putchar(str[i]);
-}
-putchar('\n');
+    int end = strlen(str);
+    int start;
+    int i;
+    
+    if(end % 2 == 1) //odd
+    {
+        start = (strlen(str) + 1) / 2;
+    }
+    else //even
+    {
+        start = strlen(str) / 2;
+    }
+    
+    for(i = start; i < end; i++)
+    {
+        putchar(str[i]);
+    }
 }
