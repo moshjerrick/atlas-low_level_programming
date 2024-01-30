@@ -6,7 +6,7 @@
  *
  * @*dest: pointer to destination
  * @*src: pointer to source
- */ 
+ */
 char *_strcpy(char *dest, char *src)
 {
 char *ptr = dest;
