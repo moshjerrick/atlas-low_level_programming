@@ -2,8 +2,12 @@
 #include <stdio.h>
 #include <string.h>
 /**
+ * _strcat - cats a string
  *
+ * @dest: destination
+ * @src:source
  *
+ * return: dest
  */
 char *_strcat(char *dest, char *src)
 {
