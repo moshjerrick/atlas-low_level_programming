@@ -2,10 +2,13 @@
 #include <stdio.h>
 #include <string.h>
 /**
+ *_strncat - description!
  *
- *
- *
- *
+ *@src: source of string
+ *@dest: destination of string
+ *@n: interger
+
+ *Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
