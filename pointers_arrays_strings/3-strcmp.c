@@ -7,14 +7,14 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	while (sr1 != '\0' || sr2 != '\0')
+	while (s1 != '\0' || s2 != '\0')
 	{
-		if (sr1 != sr2) 
+		if (s1 != s2) 
 		{
-			return (sr1 - sr2)
+			return (s1 - s2);
 		}
-	sr1++;
-	sr2++;
+	s1++;
+	s2++;
 	}
 	retun (0);
 }
