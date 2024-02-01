@@ -4,8 +4,8 @@
 /**
  * reverse_array - trying to reverse array
  *
- *@ a: pointer to array
- *@ n: number of elements in array
+ *@a: pointer to array
+ *@n: number of elements in array
  */
 void reverse_array(int *a, int n)
 {
