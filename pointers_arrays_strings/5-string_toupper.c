@@ -7,6 +7,8 @@
  *
  *@str: pointer
  *
+ *
+ *Return: str
  */
 char *string_toupper(char *str)
 {
