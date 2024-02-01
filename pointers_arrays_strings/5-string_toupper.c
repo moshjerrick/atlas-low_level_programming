@@ -2,8 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 /**
+ *string_toupper - changing lowercase letters in a string to uppercase
  *
  *
+ *@str: pointer
  *
  */
 char *string_toupper(char *str)
