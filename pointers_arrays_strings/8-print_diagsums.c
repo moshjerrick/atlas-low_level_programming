@@ -19,5 +19,5 @@ void print_diagsums(int *a, int size)
 		sum2 += *(a + i * size + (size -1 -i));
 	}
 	printf("sum of fist diagnal: %d/n", sum1);
-	printf("sum of second diagonal: %d/n" sum2);
+	printf("sum of second diagonal: %d/n", sum2);
 }
