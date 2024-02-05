@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *_strstr - 
+ *_strstr -
  *
- *@haystack: 
+ *@haystack:
  *@needle:
  *
  *
