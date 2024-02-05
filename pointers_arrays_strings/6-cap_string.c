@@ -23,8 +23,8 @@ char *cap_string(char *str)
 		if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' ||
 		str[i] == ',' || str[i] == ';' || str[i] == '.' ||
 		str[i] == '!' || str[i] == '?' || str[i] == '"' ||
-		str[i] == '(' || str[i] == ')' || str[i] == '{' || str[i] == '}') 
-		{	
+		str[i] == '(' || str[i] == ')' || str[i] == '{' || str[i] == '}')
+		{
 			i++;
 
 			if (str[i])
@@ -37,5 +37,5 @@ char *cap_string(char *str)
 			i++;
 	}
 	}
-	return str;
+	return (str);
 }
