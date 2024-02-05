@@ -19,11 +19,11 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (*s == *ptr_accept)
 			{
-				return s;
+				return (s);
 			}
 			ptr_accept++;
 		}
 		s++;
 	}
-	return NULL;
+	return (NULL);
 }
