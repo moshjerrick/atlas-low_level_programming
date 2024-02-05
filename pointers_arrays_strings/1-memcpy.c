@@ -2,11 +2,14 @@
 #include <stdio.h>
 #include <string.h>
 /**
+ *memcpy - copies memory
  *
  *
+ *@dest: destination
+ *@src: source
+ *@n: usigned interger
  *
- *
- *
+ *Return: dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
