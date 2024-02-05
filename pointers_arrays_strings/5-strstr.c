@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 /**
+ *_strstr - 
  *
- *
- *
- *
+ *@haystack: 
+ *@needle:
  *
  *
  */
