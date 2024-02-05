@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *_strstr -
+ *_strstr - locates substring
  *
- *@haystack:
+ *@haystack: pointer to string
  *@needle:
  *
  *
