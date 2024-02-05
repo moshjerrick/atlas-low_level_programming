@@ -4,7 +4,7 @@
 /**
  *function _memset - setting first num bytes
  *@s: pointer
- *@b: char 
+ *@b: char
  *@n: int
  *
  *Return: (s)
