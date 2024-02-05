@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *memcpy - copies memory
+ *_memcpy - copies memory
  *
  *
  *@dest: destination
