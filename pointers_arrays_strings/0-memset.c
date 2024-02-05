@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *function _memset - setting first num bytes
+ * _memset - setting first num bytes
  *@s: pointer
  *@b: char
  *@n: int
