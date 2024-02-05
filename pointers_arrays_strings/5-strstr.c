@@ -7,7 +7,7 @@
  *@haystack: pointer to string
  *@needle:
  *
- *
+ *Return: (null)
  */
 char *_strstr(char *haystack, char *needle)
 {
