@@ -1,3 +1,4 @@
+char *_memset(char *s, char b, unsigned int n);
 char *cap_string(char *);
 char *string_toupper(char *);
 void reverse_array(int *a, int n);
