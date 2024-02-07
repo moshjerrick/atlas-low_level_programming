@@ -3,7 +3,7 @@
  *factorial - retrieving factorial of a given number
  *
  *@n: interger
- *return: factorial of given number
+ *Return: factorial of given number
  */
 int factorial(int n)
 {
