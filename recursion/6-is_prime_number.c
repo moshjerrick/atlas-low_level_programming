@@ -1,4 +1,5 @@
 #include "main.h"
+#include <math.h>
 /**
  *is_prime_number: determining prime numbers
  *
