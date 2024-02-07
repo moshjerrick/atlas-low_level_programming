@@ -8,17 +8,18 @@
  */
 int is_prime_number(int n)
 {
-	if (n <= 0)
+	int i;
+	
+	if (n < 0)
 	{
 		return (0);
 	}
-	if (divisor == 1)
+	for (i = 2; i <= sqrt(n); i++)
 	{
-		return (1);
+		if (n % i == 0)
+		{
+			return (0);
+		}
 	}
-	if (n / divisor == 0)
-	{
-		return (0);
-	}
-	return is_prime_number(n, divisor - 1);
-}
+	return (1);
+}	
