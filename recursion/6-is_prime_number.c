@@ -1,7 +1,7 @@
 #include "main.h"
 #include <math.h>
 /**
- *is_prime_number: prime?
+ *is_prime_number: determine if a number is prime
  *
  *@n: int
  *
