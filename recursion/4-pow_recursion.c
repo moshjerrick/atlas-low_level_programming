@@ -1,8 +1,10 @@
 #include "main.h"
 /**
+ *_pow_recursion - raising value to a new power
  *
- *
- *
+ *@x: int
+ *@y: int
+ *Return: 1 if positive 0 if negative
  */
 int _pow_recursion(int x, int y)
 {
@@ -14,5 +16,5 @@ int _pow_recursion(int x, int y)
 	{
 		return (1);
 	}
-	return (x * _pow_recursion(x, y -1));
+	return (x * _pow_recursion(x, y - 1));
 }
