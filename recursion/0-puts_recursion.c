@@ -1,8 +1,8 @@
 #include "main.h"
 /**
+ *_puts_recursion - printing a line and recursion
  *
- *
- *
+ *@s: pointer
  *
  */
 void _puts_recursion(char *s)
