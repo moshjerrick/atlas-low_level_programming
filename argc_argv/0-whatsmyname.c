@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
+ *function - main
  *
  *
  *
- *
- *
+ *Return: 0
  */
 int main(int argc, char *argv[])
 {
