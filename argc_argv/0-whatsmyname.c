@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- *function - main
+ *function - main and stuff
  *
- *
+ *argc: argument counter
+ *argv: array of strings
  *
  *Return: 0
  */
