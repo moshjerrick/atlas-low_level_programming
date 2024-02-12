@@ -4,6 +4,7 @@
 int main(int argc, char *argv[]) {
     int i;
     int sum;
+    int j;
 
     if (argc == 1) {
         printf("0\n");
@@ -11,10 +12,10 @@ int main(int argc, char *argv[]) {
     }
 
     
-    int sum = 0;
+    sum = 0;
 
-    for (int i = 1; i < argc; i++) {
-        for (int j = 0; argv[i][j] != '\0'; j++) {
+    for (i = 1; i < argc; i++) {
+        for (j = 0; argv[i][j] != '\0'; j++) {
             if (!isdigit(argv[i][j])) {
                 printf("Error\n");
                 return 1;
