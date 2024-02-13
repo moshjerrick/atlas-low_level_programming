@@ -9,8 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-    	printf("%d\n", argc - 1);
-    	char* temp = argv[0];
+    	printf("%d\n", sizeof (argv));
 	return (0);
 }
 
