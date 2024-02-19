@@ -2,11 +2,11 @@
 #include <stddef.h>
 #include <stdlib.h>
 /**
- *
- *
- *
- *
- *
+ *string_nconcat - concats 2 strins
+ *@s1: string 1
+ *@s2: string 2
+ *@n: number of bytes from string 2
+ *Return: pointer of new
  *
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -29,7 +29,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	for (i = 0; i < len1; i++)
 		new_str[i] = s1[i];
-	for (j=0; j < n; i++, j++)
+	for (j = 0; j < n; i++, j++)
 		new_str[i] = s2[j];
 	new_str[i] = '\0';
 	return (new_str);
