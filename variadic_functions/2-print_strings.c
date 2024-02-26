@@ -17,7 +17,7 @@ void print_strings(const char *seperator, const unsigned int n, ...)
 		temp = va_arg(valist, char*);
 		printf("%s", temp ? temp : "(nil)");
 		if (seperator && i < n - 1)
-			printf("%s",, seperator);
+			printf("%s", seperator);
 	}
 	printf("\n");
 	va_end(valist);
