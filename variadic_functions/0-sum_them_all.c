@@ -4,7 +4,7 @@
  * @n: int of arguments
  * Return: sum
  */
-int sum_them_all(const unsigned in n, ...)
+int sum_them_all(const unsigned int n, ...)
 {
 	va_list valist;
 	unsigned in i, sum = 0;
