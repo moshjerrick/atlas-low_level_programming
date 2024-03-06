@@ -6,37 +6,33 @@
  *
  *
  *
+ *
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *temp;
+	char *dup;
+	int len;
+	list_t *new;
 
-	if (head != NULL && str != NULL)
+	new = malloc(sizeof(list_t));
+	if (new == NULL)
+		return (NULL);
+
+	dup = strdup(str);
+	if (dup == NULL)
 	{
-		temp = malloc(sizeof(list_t));
-		if (temp == NULL)
-			return (NULL);
-
-		temp->str = strdup(str);
-		temp->len = strlen(str);
-		temp->next = *head;
-
-		*head = temp;
-
-		return (temp);
+		free(new);
+		return (NULL);
 	}
 
-	return (0);
-}
-int _strlen(const char *s)
-{
-	int c = 0;
+	for (len = 0; str[len];)
+		len++;
 
-	while (*s)
-	{
-		s++;
-		c++;
-	}
+	new->str = dup;
+	new->len = len;
+	new->next = *head;
 
-	return (c);
+	*head = new;
+
+	return (new);
 }
