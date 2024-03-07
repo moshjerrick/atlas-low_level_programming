@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- *print_listin - print all of linstint list
+ *print_listint - print all of linstint list
  *@h: points to head of list_t list
  *
  *
