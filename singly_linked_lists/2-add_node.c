@@ -2,11 +2,11 @@
 #include <string.h>
 #include <stdlib.h>
 /**
+ *add_node - adds node to beginning of linked list
+ *@head: original linked list
+ *@str: string to add to note
  *
- *
- *
- *
- *
+ *Return: address of new list or null
  */
 list_t *add_node(list_t **head, const char *str)
 {

@@ -1,12 +1,12 @@
 #include "lists.h"
 #include <string.h>
 /**
+ *add_node_end - adds a node to end of linked list
+ *@head: linked list
+ *@str: string to add to node
  *
  *
- *
- *
- *
- *
+ *Return: Address of new list or null
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
