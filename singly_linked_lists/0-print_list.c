@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <stdio.h>
-#include <string.h> 
+#include <string.h>
 /**
  *print_list - prints elements of a list
  *@h: linked list
