@@ -5,7 +5,7 @@
 #include <string.h>
 /**
  *print_list - prints elements of a list
- *@h: linked list
+ *@h: pointer
  *
  *Return: number of nodes
  */
