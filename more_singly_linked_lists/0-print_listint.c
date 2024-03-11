@@ -2,10 +2,9 @@
 #include <stdio.h>
 /**
  * print_listint - print all of linstint list
- *@h: points to head of list_t list
+ * @h: points to head of list_t list
  *
- *
- *Return: number of nodes
+ * Return: number of nodes
  */
 
 size_t print_listint(const listint_t *h)
