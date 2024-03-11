@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  *listint_len - length of listint
- *@h: pointer 
+ *@h: pointer
  *
  *Return: lenth in nodes
  */
