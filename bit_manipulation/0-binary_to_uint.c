@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stddef.h>
 /**
+ *binary_to_uint - converts vinary number to unsigned int
+ *@b: pointer to string of 0 and 1
  *
  *
- *
- *
- *
+ *Return: null or the converted number
  */
 unsigned int binary_to_uint(const char *b)
 {
