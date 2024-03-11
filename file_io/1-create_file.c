@@ -10,43 +10,26 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int fd, rd, wd;
-	char *buff = malloc(sizeof(char) * letters);
-	size_t letters = 1024;
+	int fd, len, w;
 
 	if (filename == NULL)
-	{
-		return (0);
-	}
+		return (-1);
 
-	buff = malloc(sizeof(char) * letters);
-	if (buff == NULL)
-	{
-		return (0);
-	}
-
-	fd = open(filename, O_RDWR);
+	fd = open(filename, O_CREAT | O_RDWR | O_TRUNC, 00600);
 	if (fd == -1)
 	{
-		free(buff);
-		return (0);
+		return (-1);
 	}
-	
-	rd = read(fd, buff, letters);
-	if (rd == -1)
+	if (text_content != NULL)
 	{
-		close(fd)
-		free(buff);	
-		return (0);
+		for (len = 0; text_content[len] != '\0'; len++)
+		;
+		w = write(fd, text_content, len);
 	}
-	wd = write(STDOUT_FILENO, buff, rd);
-	if (wd == -1)
+	if (w == -1)
 	{
-		close(fd);
-		free(buff);
-		return (0);
+		return (-1);
 	}
 	close(fd);
-	free(buff);
-	return (wd);
+	return (1);
 }
