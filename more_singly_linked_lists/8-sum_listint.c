@@ -5,7 +5,7 @@
  *
  *
  */
-int sum_listint(listint_t *head);
+int sum_listint(listint_t *head)
 {
 	int amount = 0;
 
