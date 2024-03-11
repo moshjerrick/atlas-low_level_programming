@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  *pop_listint - deletes head node
- *
+ *@head: pointer to list
  *Return: if empty 0, or the head nodes data
  *
  */
