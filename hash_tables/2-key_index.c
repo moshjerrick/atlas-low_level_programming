@@ -1,4 +1,4 @@
-#include "hash_tables"
+#include "hash_tables.h"
 /**
  * 
  * 
@@ -12,5 +12,5 @@ unsigned long int key_index(const unsigned char *key, unsigned long int size)
     hash_value = has_djb2(key);
 
     return (hash_value % size);
-    
+
 }
