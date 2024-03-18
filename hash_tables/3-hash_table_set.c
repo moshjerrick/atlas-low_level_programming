@@ -3,8 +3,12 @@
 #include <stdio.h>
 #include <string.h>
 /**
+ * hash_table_set - add element to hash table
+ * @ht: pointer to hash table
+ * @key: key to add
+ * @value: value of key
  * 
- * 
+ * Return: 0 if failure, 1 if not
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
