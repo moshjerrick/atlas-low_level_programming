@@ -5,7 +5,7 @@
  * linear_search - search linearly through array
  * @array: array to search
  * @size: size of array
- * @vaulue: value to be searched
+ * @value: value to be searched
  * Return: first time a value is found
  *
  */
