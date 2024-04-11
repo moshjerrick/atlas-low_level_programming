@@ -1,7 +1,14 @@
 #include <stddef.h>
 #include "search_algos.h"
 #include <stdio.h>
-
+/**
+ * linear_search - search linearly through array
+ * @array: array to search
+ * @size: size of array
+ * @vaulue: value to be searched
+ * Return: first time a value is found
+ *
+ */
 
 
 int linear_search(int *array, size_t size, int value)
