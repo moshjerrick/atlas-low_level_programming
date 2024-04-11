@@ -1,6 +1,5 @@
 #include "search_algos.h"
-#include <stddef.h>
-#include <stdio.h>
+
 /**
  *
  *
