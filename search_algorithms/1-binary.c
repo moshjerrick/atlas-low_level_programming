@@ -1,12 +1,16 @@
 #include <stddef.h>
 
 int binary_search(int *array, size_t size, int value) {
+    int left;
+    int right;
+    int mid;
+
     if (array == NULL || size == 0) {
-        return -1; 
+        return (-1);
     }
 
-    int left = 0;
-    int right = size - 1;
+    left = 0;
+    right = size - 1;
 
     while (left <= right) {
         int mid = left + (right - left) / 2;
@@ -20,5 +24,6 @@ int binary_search(int *array, size_t size, int value) {
         }
     }
 
-    return -1; 
+    return (-1);
 }
+
