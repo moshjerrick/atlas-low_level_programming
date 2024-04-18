@@ -7,12 +7,12 @@ typedef struct dlistint_s {
     struct dlistint_s *next;
 } dlistint_t;
 
-
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index) {
     if (*head == NULL)
         return -1;
 
     dlistint_t *current = *head;
+    dlistint_t *next_node;
 
     if (index == 0) {
         *head = (*head)->next;
@@ -30,7 +30,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index) {
     if (current == NULL || current->next == NULL)
         return -1;
 
-    dlistint_t *next_node = current->next->next;
+    next_node = current->next->next;
     free(current->next);
     current->next = next_node;
 
@@ -39,7 +39,6 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index) {
 
     return 1;
 }
-
 
 void print_dlist(dlistint_t *head) {
     while (head != NULL) {
@@ -73,6 +72,7 @@ int main() {
     } else {
         printf("Failed to delete node at index 2.\n");
     }
+
 
     while (head != NULL) {
         dlistint_t *temp = head;
